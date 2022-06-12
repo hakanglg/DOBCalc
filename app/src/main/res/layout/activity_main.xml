@@ -24,12 +24,11 @@
         app:layout_constraintVertical_bias="0.31" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="11.08.1999"
         android:textColor="@color/darkBrown"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -41,12 +40,11 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:gravity="center"
-        android:text="10000000000"
         android:textColor="@color/lightBrown"
         android:textSize="20sp"
         android:textStyle="bold"
@@ -54,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/tvSelectedDate"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
